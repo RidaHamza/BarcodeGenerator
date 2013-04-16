@@ -50,7 +50,6 @@ namespace BarcodeGenerator
         private void SaveButton_Click(object sender, EventArgs e)
         {
             bmpBarcode.Save(FileNameToSaveTextBox.Text);
-            bmpBarcode.Save(FileNameToSaveTextBox.Text);
         }
 
         private void ToClipboardButton_Click(object sender, EventArgs e)
